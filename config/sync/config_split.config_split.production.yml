@@ -1,0 +1,18 @@
+uuid: 9723c735-1647-44a5-963d-45e7d91a57aa
+langcode: fr
+status: false
+dependencies: {  }
+id: production
+label: production
+description: ''
+weight: 0
+stackable: false
+no_patching: false
+storage: folder
+folder: ../config/production
+module: {  }
+theme: {  }
+complete_list: {  }
+partial_list:
+  - system.site
+  - 'webform.*'
