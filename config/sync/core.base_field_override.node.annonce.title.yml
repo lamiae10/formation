@@ -1,0 +1,18 @@
+uuid: 9a5f2709-a1e5-4b90-b936-bf74f2e74ae9
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.annonce
+id: node.annonce.title
+field_name: title
+entity_type: node
+bundle: annonce
+label: Nom
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

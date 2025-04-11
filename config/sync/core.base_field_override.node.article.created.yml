@@ -1,0 +1,18 @@
+uuid: 537c1eeb-af14-4417-88cb-aa457ab26fb1
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.article
+id: node.article.created
+field_name: created
+entity_type: node
+bundle: article
+label: 'Écrit le'
+description: "La date et l'heure auxquelles le contenu a été créé."
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

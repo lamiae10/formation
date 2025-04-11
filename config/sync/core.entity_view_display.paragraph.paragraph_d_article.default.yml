@@ -1,0 +1,44 @@
+uuid: b14e0ce2-de63-4cb9-acdf-3ed36ceedc77
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.paragraph_d_article.field_corps
+    - field.field.paragraph.paragraph_d_article.field_image
+    - field.field.paragraph.paragraph_d_article.field_titre
+    - paragraphs.paragraphs_type.paragraph_d_article
+  module:
+    - image
+    - text
+id: paragraph.paragraph_d_article.default
+targetEntityType: paragraph
+bundle: paragraph_d_article
+mode: default
+content:
+  field_corps:
+    type: text_default
+    label: visually_hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_image:
+    type: image
+    label: visually_hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_titre:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden: {  }

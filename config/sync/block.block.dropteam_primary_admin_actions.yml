@@ -1,0 +1,20 @@
+uuid: 0d59dc75-bed2-406f-b700-1a799e2e5704
+langcode: en
+status: true
+dependencies:
+  theme:
+    - dropteam
+_core:
+  default_config_hash: Sm7dOZdQBL-JJVElni6gCL05jenlKA8w8pe1HKdqJ9s
+id: dropteam_primary_admin_actions
+theme: dropteam
+region: content
+weight: -6
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

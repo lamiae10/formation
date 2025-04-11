@@ -1,0 +1,25 @@
+uuid: 1075c26b-b605-4e47-9876-a57bbeffa29c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - dropteam
+_core:
+  default_config_hash: 4zsVsxWUwXecUpfapnB6XwS1lm0JlxXaZzCMdEWKrAU
+id: dropteam_site_branding
+theme: dropteam
+region: header
+weight: -7
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

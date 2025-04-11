@@ -1,0 +1,22 @@
+uuid: 65e64541-d043-4210-b175-97b9963c8616
+langcode: en
+status: true
+dependencies:
+  theme:
+    - dropteam
+_core:
+  default_config_hash: DlWptzqRpMSc_auThOsJfoSsKCHr1DBLWfnOLG2dp0o
+id: dropteam_primary_local_tasks
+theme: dropteam
+region: content
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

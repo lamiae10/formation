@@ -1,0 +1,29 @@
+uuid: af79315e-bc8f-4112-9c85-86be01e10a91
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_type_de_bien
+    - node.type.annonce
+    - taxonomy.vocabulary.type_de_bien
+id: node.annonce.field_type_de_bien
+field_name: field_type_de_bien
+entity_type: node
+bundle: annonce
+label: 'type de bien'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      type_de_bien: type_de_bien
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

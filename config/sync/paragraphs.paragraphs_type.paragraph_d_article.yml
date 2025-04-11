@@ -1,0 +1,10 @@
+uuid: cc2f9c51-cb40-465c-ad45-17edeab0c392
+langcode: fr
+status: true
+dependencies: {  }
+id: paragraph_d_article
+label: "paragraph d'article"
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,14 @@
+uuid: cebadddf-1ae1-4da6-b7a2-2c673c180479
+langcode: fr
+status: true
+dependencies:
+  enforced:
+    module:
+      - webform
+_core:
+  default_config_hash: YNrKbYrWWjeubUUM8AsQ19KnX7cU1elACR14CZJHmdg
+id: days
+label: Jours
+category: 'Date et heure'
+likert: false
+options: "Sunday: Dimanche\r\nMonday: Lundi\r\nTuesday: Mardi\r\nWednesday: Mercredi\r\nThursday: Jeudi\r\nFriday: Vendredi\r\nSaturday: Samedi\n"

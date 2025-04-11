@@ -1,0 +1,14 @@
+# Simple link.
+hello.page:
+  title: Hello page
+  description: Hello page
+  menu_name: main
+  route_name: hello.page
+  weight: 10
+
+hello.settings:
+  title: Hello settings
+  description: Hellosettings description.
+  parent: system.admin_config_system
+  route_name: hello.settings
+  weight: 10

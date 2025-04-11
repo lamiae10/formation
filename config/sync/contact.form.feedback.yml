@@ -1,0 +1,14 @@
+uuid: 560d0f8b-ebf5-40ef-8b62-1e8d6e68b94d
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Retours utilisateurs sur le site web'
+recipients:
+  - elhazzazlamiae@gmail.com
+reply: ''
+weight: 0
+message: 'Votre message a été envoyé.'
+redirect: ''

@@ -1,0 +1,17 @@
+uuid: 73093dce-5687-4e0b-8e29-0ad31d58d68d
+langcode: fr
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'annonce immobiliere'
+type: annonce
+description: null
+help: null
+new_revision: false
+preview_mode: 1
+display_submitted: true

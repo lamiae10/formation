@@ -1,0 +1,20 @@
+uuid: 53246587-20d7-401b-aee0-2c92f295bdc0
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.article
+  module:
+    - path
+id: node.article.path
+field_name: path
+entity_type: node
+bundle: article
+label: "Alias d'URL"
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

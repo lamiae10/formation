@@ -1,0 +1,40 @@
+uuid: 3a7340ef-6e07-41d4-8ffb-23cdb4abda8d
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.evenement.body
+    - field.field.node.evenement.field_date
+    - node.type.evenement
+  module:
+    - datetime
+    - text
+    - user
+id: node.evenement.default
+targetEntityType: node
+bundle: evenement
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_date:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

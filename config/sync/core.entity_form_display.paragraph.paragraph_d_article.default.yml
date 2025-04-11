@@ -1,0 +1,45 @@
+uuid: 7ea29198-f762-4427-9f1d-6d8cf67698d6
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.paragraph_d_article.field_corps
+    - field.field.paragraph.paragraph_d_article.field_image
+    - field.field.paragraph.paragraph_d_article.field_titre
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.paragraph_d_article
+  module:
+    - image
+    - text
+id: paragraph.paragraph_d_article.default
+targetEntityType: paragraph
+bundle: paragraph_d_article
+mode: default
+content:
+  field_corps:
+    type: text_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_image:
+    type: image_image
+    weight: 2
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_titre:
+    type: string_textfield
+    weight: 3
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

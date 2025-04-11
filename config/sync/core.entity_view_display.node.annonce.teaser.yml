@@ -1,0 +1,64 @@
+uuid: ed68e25d-ee21-48ee-9fa4-88597d22c5a8
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.annonce.field_description
+    - field.field.node.annonce.field_paragraphes
+    - field.field.node.annonce.field_photos
+    - field.field.node.annonce.field_prix
+    - field.field.node.annonce.field_type_de_bien
+    - image.style.carre_162
+    - node.type.annonce
+  module:
+    - swiper_formatter
+    - text
+    - user
+id: node.annonce.teaser
+targetEntityType: node
+bundle: annonce
+mode: teaser
+content:
+  field_description:
+    type: text_trimmed
+    label: hidden
+    settings:
+      trim_length: 200
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_photos:
+    type: swiper_formatter_image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: carre_162
+      image_loading:
+        attribute: lazy
+      template: carre_162
+      caption: ''
+      custom_link: ''
+      destination: null
+      swiper_access: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_prix:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_paragraphes: true
+  field_type_de_bien: true
+  langcode: true

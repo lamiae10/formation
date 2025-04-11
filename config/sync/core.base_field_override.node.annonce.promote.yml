@@ -1,0 +1,22 @@
+uuid: 6939bf14-f61e-4b1d-94be-d373afc4e127
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.annonce
+id: node.annonce.promote
+field_name: promote
+entity_type: node
+bundle: annonce
+label: "Promu en page d'accueil"
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activé
+  off_label: Désactivé
+field_type: boolean

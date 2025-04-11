@@ -1,0 +1,31 @@
+uuid: e1e6a11c-5b8f-4b84-be24-3adff45fa95c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_paragraphes
+    - node.type.annonce
+    - paragraphs.paragraphs_type.paragraph_d_article
+  module:
+    - entity_reference_revisions
+id: node.annonce.field_paragraphes
+field_name: field_paragraphes
+entity_type: node
+bundle: annonce
+label: Paragraphes
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      paragraph_d_article: paragraph_d_article
+    negate: 0
+    target_bundles_drag_drop:
+      paragraph_d_article:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions

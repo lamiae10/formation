@@ -1,0 +1,18 @@
+uuid: 204a3789-d6d5-4635-b049-b416e85c1ffa
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.annonce
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.annonce
+target_entity_type_id: node
+target_bundle: annonce
+default_langcode: site_default
+language_alterable: true
